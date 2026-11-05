@@ -35,5 +35,13 @@
   "scripts": {
     "test": "node --test",
     "test:watch": "node --test --watch"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trmykqmbp5br-blip/mcp-config-gen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/trmykqmbp5br-blip/mcp-config-gen/issues"
+  },
+  "homepage": "https://github.com/trmykqmbp5br-blip/mcp-config-gen#readme"
 }

@@ -78,7 +78,7 @@ node bin/mcp-config-gen.js cursor --name anysearch \
 Requires Node.js 20 or newer. No dependencies, no build step.
 
 ```bash
-git clone <this repo>
+git clone https://github.com/trmykqmbp5br-blip/mcp-config-gen.git
 cd mcp-config-gen
 node --test          # optional: 63 tests, no network
 node bin/mcp-config-gen.js --list
