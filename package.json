@@ -1,0 +1,39 @@
+{
+  "name": "mcp-config-gen",
+  "version": "0.1.0",
+  "description": "Render one MCP server definition into the correct config snippet for ten different clients.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "config",
+    "cli",
+    "claude-code",
+    "cursor",
+    "vscode",
+    "codex"
+  ],
+  "license": "MIT",
+  "author": "mcp-config-gen contributors",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "mcp-config-gen": "bin/mcp-config-gen.js"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./clients": "./src/clients.js",
+    "./spec": "./src/spec.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  }
+}
